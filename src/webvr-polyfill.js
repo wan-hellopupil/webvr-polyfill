@@ -67,6 +67,8 @@ WebVRPolyfill.prototype.getPolyfillDisplays = function() {
       YAW_ONLY:                     this.config.YAW_ONLY,
       BUFFER_SCALE:                 this.config.BUFFER_SCALE,
       DIRTY_SUBMIT_FRAME_BINDINGS:  this.config.DIRTY_SUBMIT_FRAME_BINDINGS,
+      ADDITIONAL_VIEWERS:           this.config.ADDITIONAL_VIEWERS,
+      DEFAULT_VIEWER:               this.config.DEFAULT_VIEWER,
     });
 
     this.polyfillDisplays.push(vrDisplay);
